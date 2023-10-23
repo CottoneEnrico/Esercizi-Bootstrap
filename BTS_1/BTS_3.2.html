@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pagina con Bootstrap 5</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="bg-info text-white text-center py-3">
+  <h1 class="display-4">Benvenuti</h1>
+  <p class="lead">Questo è un esempio di pagina Bootstrap 5.</p>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="text-center">
+        <div class="rounded-circle float-right" style="width: 150px; height: 150px; background-image: url('./assets/gato\ manaza_nerobg.png'); background-size: cover;"></div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="text-center">
+        <div class="rounded float-left" style="width: 150px; height: 150px; background-image: url('./assets/gato\ manaza_nerobg.png'); background-size: cover;"></div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="text-center">
+        <div class="rounded-circle" style="width: 150px; height: 150px; background-image: url('./assets/gato\ manaza_nerobg.png'); background-size: cover;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="alert alert-success alert-dismissible fade show mt-4" role="alert">
+  Questo è un messaggio effettivamente giusto.
+  <a href="#" class="alert-link">Torna all'inizio</a>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Chiudi"></button>
+</div>
+
+<div class="container mt-4">
+  <button class="btn btn-outline-primary btn-block">Button Outline</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-outline-secondary">Bottone n.1</button>
+    <button type="button" class="btn btn-outline-secondary">Bottone n.2</button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Elemento n.1</a>
+        <a class="dropdown-item" href="#">Elemento n.2</a>
+        <a class="dropdown-item" href="#">Elemento n.3</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
